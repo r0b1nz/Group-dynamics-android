@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Group Dynamics</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Demo">YOUR LOCATION</string>
+    <string name="title_activity_geofence">Map</string>
+    <string name="title_activity_maps_circle">Map</string>
+    <string name="title_activity_current_location">Map</string>
+    <string name="title_activity_polygon_title">Map</string>
+</resources>

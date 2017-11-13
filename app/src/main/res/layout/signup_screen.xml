@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:layout_gravity="center"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:padding="7dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/textbackground"
+        android:id="@+id/etxt_name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:padding="7dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/textbackground"
+        android:id="@id/etxt_username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:padding="7dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/textbackground"
+        android:id="@+id/etxt_gender"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Id"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:padding="7dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textbackground"
+        android:id="@+id/etxt_emailid"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password(min 8 characters)"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="7dp"
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+        android:background="@drawable/textbackground"
+        android:id="@+id/etxt_password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:background="#ffc0"
+        android:layout_margin="5dp"
+        android:id="@+id/btn_signin"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Wheat"
+        android:textAlignment="center"
+        android:text="Fill up all the fields" />
+
+
+</LinearLayout>
